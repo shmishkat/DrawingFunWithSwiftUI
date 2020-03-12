@@ -21,6 +21,8 @@ struct MishkatCodes: View {
                 path.addLine(to: CGPoint(x: 0, y: height))
             }.fill(LinearGradient(gradient: .init(colors: [.red,.purple,.blue]), startPoint: .topLeading, endPoint: .bottomTrailing))
             
+            Circle().fill(Color.yellow).overlay(Circle().stroke(Color.black,lineWidth: 20)).padding(20)
+            
         }
     }
 }
