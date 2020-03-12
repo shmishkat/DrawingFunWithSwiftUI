@@ -15,12 +15,11 @@ struct MishkatCodes: View {
                 let height = geometry.size.height
                 let width = geometry.size.width
                 
-                path.move(to: CGPoint(x: 0, y: height))
-                path.addLine(to: CGPoint(x: width * 0.5, y: 0))
+                path.move(to: CGPoint(x: 0, y: 0))
+                path.addLine(to: CGPoint(x: width, y: 0))
                 path.addLine(to: CGPoint(x: width, y: height))
-                
-                
-            }.fill(Color.blue)
+                path.addLine(to: CGPoint(x: 0, y: height))
+            }.fill(LinearGradient(gradient: .init(colors: [.red,.purple,.blue]), startPoint: .topLeading, endPoint: .bottomTrailing))
             
         }
     }
