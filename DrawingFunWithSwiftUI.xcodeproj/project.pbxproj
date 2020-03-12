@@ -14,6 +14,7 @@
 		A24091DE2419B57800D76720 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A24091DD2419B57800D76720 /* Assets.xcassets */; };
 		A24091E12419B57800D76720 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A24091E02419B57800D76720 /* Preview Assets.xcassets */; };
 		A24091E42419B57800D76720 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A24091E22419B57800D76720 /* LaunchScreen.storyboard */; };
+		A24091EC2419B8E300D76720 /* MishkatCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24091EB2419B8E300D76720 /* MishkatCodes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		A24091E02419B57800D76720 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A24091E32419B57800D76720 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A24091E52419B57800D76720 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A24091EB2419B8E300D76720 /* MishkatCodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MishkatCodes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				A24091D42419B57500D76720 /* AppDelegate.swift */,
 				A24091D62419B57500D76720 /* SceneDelegate.swift */,
 				A24091DB2419B57500D76720 /* ContentView.swift */,
+				A24091EB2419B8E300D76720 /* MishkatCodes.swift */,
 				A24091DD2419B57800D76720 /* Assets.xcassets */,
 				A24091E22419B57800D76720 /* LaunchScreen.storyboard */,
 				A24091E52419B57800D76720 /* Info.plist */,
@@ -152,6 +155,7 @@
 				A24091D52419B57500D76720 /* AppDelegate.swift in Sources */,
 				A24091D72419B57500D76720 /* SceneDelegate.swift in Sources */,
 				A24091DC2419B57500D76720 /* ContentView.swift in Sources */,
+				A24091EC2419B8E300D76720 /* MishkatCodes.swift in Sources */,
 				A24091DA2419B57500D76720 /* DrawingFunWithSwiftUI.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

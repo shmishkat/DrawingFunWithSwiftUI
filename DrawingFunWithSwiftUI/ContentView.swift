@@ -10,7 +10,26 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+//        Circle()
+//        Square()
+//        Capsule()
+//        Ellipse()
+//        OffsetShape()
+//        Path()
+//        Rectangle()
+//        RotatedShape()
+//        RoundedRctangle()
+//        ScaledShape()
+//        TransformedShape()
+        VStack {
+            Circle().fill(Color.gray)
+                .overlay(Circle().stroke(Color.black, lineWidth: 10))
+                .shadow(radius: 50)
+                .padding(30)
+            MishkatCodes()
+        }
+        
+        
     }
 }
 
