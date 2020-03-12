@@ -10,7 +10,8 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State var rotater = 1.0
+    //@State var rotater = 1.0
+    @State var show = false
     
     var body: some View {
         //        Circle()
@@ -26,13 +27,24 @@ struct ContentView: View {
         //        TransformedShape()
         VStack {
             //Circle().fill(Color.red).overlay(Circle().stroke(Color.blue, lineWidth: 20).shadow(radius: 20)).padding(30)
+            Circle()
+            if show{
+                MishkatCodes().transition(.scale)
+            }
+            Circle()
+           
             
-            MishkatCodes().rotationEffect(. degrees(180 * rotater)).animation(.spring(response: 2))
             
             Button(action: {
-                self.rotater += 1
+                withAnimation{
+                    //self.rotater += 1
+                    self.show.toggle()
+                }
+                
             }){
-                Text("Animate").rotationEffect(. degrees(360 * rotater)).animation(.spring(response: 2))            }
+                Text("Animate")
+                
+            }
         }
     }
 }
