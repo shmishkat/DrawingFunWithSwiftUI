@@ -22,10 +22,7 @@ struct ContentView: View {
 //        ScaledShape()
 //        TransformedShape()
         VStack {
-            Circle().fill(Color.gray)
-                .overlay(Circle().stroke(Color.black, lineWidth: 10))
-                .shadow(radius: 50)
-                .padding(30)
+            Circle().fill(Color.red).overlay(Circle().stroke(Color.blue, lineWidth: 20).shadow(radius: 20)).padding(30)
             MishkatCodes()
         }
         

@@ -15,12 +15,12 @@ struct MishkatCodes: View {
                 let height = geometry.size.height
                 let width = geometry.size.width
                 
-                path.move(to: CGPoint(x: 0, y: 0))
-                path.addLine(to: CGPoint(x: geometry.size.width * 0.5, y: geometry.size.height * 0.5))
-                path.move(to: CGPoint(x: 0, y: geometry.size.height * 0.25))
-                path.addLine(to: CGPoint(x: geometry.size.width, y: 0))
+                path.move(to: CGPoint(x: 0, y: height))
+                path.addLine(to: CGPoint(x: width * 0.5, y: 0))
+                path.addLine(to: CGPoint(x: width, y: height))
                 
-            }.stroke(Color.green, lineWidth: 20)
+                
+            }.fill(Color.blue)
             
         }
     }
